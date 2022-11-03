@@ -46,7 +46,7 @@ export const skills = [
     id: 5,
     name: "Express",
     href: "#",
-    imageSrc: express,
+    imageSrc: express, //TODO: Look for HD Quality logo
     imageAlt: "Express Logo",
   },
   {
