@@ -1,6 +1,6 @@
-function Container({ children }) {
+const Container = ({ children }) => {
   return (
-    <main className=' flex bg-gray-800 min-h-screen justify-center items-center flex-col'>
+    <main className=' flex bg-gray-900 min-h-screen justify-center items-center flex-col'>
       {children}
     </main>
   );
