@@ -12,20 +12,18 @@ const Experience = React.lazy(() =>
 
 function App() {
   return (
-    <div>
-      <Container>
-        <Parallax>
-          <Intro />
-        </Parallax>
-        <Parallax>
-          <SkillSet />
-        </Parallax>
-        <Parallax>
-          <Project />
-        </Parallax>
-        <Experience />
-      </Container>
-    </div>
+    <Container>
+      <Parallax>
+        <Intro />
+      </Parallax>
+      <Parallax>
+        <SkillSet />
+      </Parallax>
+      <Parallax>
+        <Project />
+      </Parallax>
+      <Experience />
+    </Container>
   );
 }
 
