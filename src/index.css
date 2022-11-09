@@ -11,7 +11,8 @@
 
 body {
   margin: 0;
-  background: url("./images/icons/topology.jpg") no-repeat fixed !important;
+  background: #252525 !important;
+  /* background: url("./images/icons/topology.jpg") no-repeat fixed !important; */
   font-family: "Poppins", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
