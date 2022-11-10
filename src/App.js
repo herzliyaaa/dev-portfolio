@@ -22,7 +22,9 @@ function App() {
       <Parallax>
         <Project />
       </Parallax>
-      <Experience />
+      <Parallax>
+        <Experience />
+      </Parallax>
     </Container>
   );
 }
