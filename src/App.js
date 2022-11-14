@@ -9,12 +9,16 @@ const Project = React.lazy(() => import("./components/Projects.component"));
 const Experience = React.lazy(() =>
   import("./components/Experience.component")
 );
+const Footer = React.lazy(() => import("./components/Footer.component"));
 
+const portfolio = {
+  name: "Herzlia Jane Barangan",
+};
 function App() {
   return (
     <Container>
       <Parallax>
-        <Intro />
+        <Intro name={portfolio.name} />
       </Parallax>
       <Parallax>
         <SkillSet />
@@ -25,6 +29,7 @@ function App() {
       <Parallax>
         <Experience />
       </Parallax>
+      <Footer name={portfolio.name} />
     </Container>
   );
 }
