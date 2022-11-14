@@ -4,6 +4,7 @@ import React from "react";
 import Container from "./components/Container.component";
 import Intro from "./components/Intro.component";
 import Parallax from "./sub-components/Parallax.sub-component";
+import About from "./components/About.component";
 const SkillSet = React.lazy(() => import("./components/SkillSet.component"));
 const Project = React.lazy(() => import("./components/Projects.component"));
 const Experience = React.lazy(() =>
@@ -14,12 +15,14 @@ const Footer = React.lazy(() => import("./components/Footer.component"));
 const portfolio = {
   name: "Herzlia Jane Barangan",
 };
+
 function App() {
   return (
     <Container>
       <Parallax>
         <Intro name={portfolio.name} />
       </Parallax>
+      <About/>
       <Parallax>
         <SkillSet />
       </Parallax>

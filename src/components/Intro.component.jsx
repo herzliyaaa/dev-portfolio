@@ -1,4 +1,3 @@
-import React from "react";
 import { motion } from "framer-motion";
 import LogoAnimation from "../sub-components/LogoAnimation.sub-component";
 import PropTypes from "prop-types";
@@ -9,7 +8,7 @@ const Intro = ({ name }) => {
       <section className="h-screen flex justify-center items-center">
         <div className="justify-center items-center flex flex-col">
           <LogoAnimation width={200} height={200} />
-          <div className="flex flex-col">
+          <div className="flex flex-col pt-3">
             <div className="flex">
               <motion.h1
                 transition={{
