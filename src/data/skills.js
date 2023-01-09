@@ -3,7 +3,8 @@ import html from "../images/skill-logo/html.png";
 import nodejs from "../images/skill-logo/nodejs1.png";
 import vue from "../images/skill-logo/vue.png";
 import react from "../images/skill-logo/react.png";
-import js from "../images/skill-logo/javascript.png";
+import pixeljs from "../images/skill-logo/pixel/pixel-js.png";
+// import js from "../images/skill-logo/javascript.png";
 import express from "../images/skill-logo/express.png";
 import tailwind from "../images/skill-logo/tail.svg";
 import docker from "../images/skill-logo/dockerr.png";
@@ -32,7 +33,7 @@ export const skills = [
     id: 3,
     name: "JS",
     href: "#",
-    imageSrc: js,
+    imageSrc: pixeljs,
     imageAlt: "JS Logo",
   },
   {

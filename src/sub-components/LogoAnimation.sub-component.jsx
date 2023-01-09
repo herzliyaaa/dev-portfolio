@@ -1,13 +1,14 @@
 import PropTypes from "prop-types";
 import { motion } from "framer-motion";
 
-import topographic from "../images/icons/topo-second.png";
+//import topographic from "../images/icons/topo-second.png";
+import avatar from "../images/icons/avatar.png"
 
 const LogoAnimation = (props) => {
   const { width, height, additionalStyles } = props;
   return (
     <motion.img
-      src={topographic}
+      src={avatar}
       animate={{
         opacity: 1,
         filter: "white",
