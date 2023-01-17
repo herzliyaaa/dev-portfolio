@@ -5,6 +5,7 @@ import Container from "./components/Container.component";
 import Intro from "./components/Intro.component";
 import Parallax from "./sub-components/Parallax.sub-component";
 import About from "./components/About.component";
+import Contact from "./components/Contact.component";
 const SkillSet = React.lazy(() => import("./components/SkillSet.component"));
 const Project = React.lazy(() => import("./components/Projects.component"));
 const Experience = React.lazy(() =>
@@ -22,7 +23,7 @@ function App() {
       <Parallax>
         <Intro name={portfolio.name} />
       </Parallax>
-      <About/>
+      <About />
       <Parallax>
         <SkillSet />
       </Parallax>
@@ -31,6 +32,9 @@ function App() {
       </Parallax>
       <Parallax>
         <Experience />
+      </Parallax>
+      <Parallax>
+        <Contact />
       </Parallax>
       <Footer name={portfolio.name} />
     </Container>
