@@ -14,7 +14,7 @@ const Experience = React.lazy(() =>
 const Footer = React.lazy(() => import("./components/Footer.component"));
 
 const portfolio = {
-  name: "Herzlia Jane Barangan",
+  name: "Herzlia Jane R. Barangan",
 };
 
 function App() {
@@ -25,16 +25,16 @@ function App() {
       </Parallax>
       <About />
       <Parallax>
-        <SkillSet />
+        {/* <SkillSet /> */}
       </Parallax>
       <Parallax>
-        <Project />
+        {/* <Project /> */}
       </Parallax>
       <Parallax>
-        <Experience />
+        {/* <Experience /> */}
       </Parallax>
       <Parallax>
-        <Contact />
+        {/* <Contact /> */}
       </Parallax>
       <Footer name={portfolio.name} />
     </Container>

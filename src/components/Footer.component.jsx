@@ -15,16 +15,22 @@ const Footer = ({ name }) => {
         </p>
         <ul className="flex flex-wrap items-center justify-center mb-6 text-sm text-gray-500 sm:mb-0 dark:text-gray-400">
           <li>
-            <p className="mr-4 hover:underline md:mr-6 ">About</p>
+            <p className="mr-4 hover:underline md:mr-6 cursor-pointer">About</p>
           </li>
           <li>
-            <p className="mr-4 hover:underline md:mr-6">Skills</p>
+            <p className="mr-4 hover:underline md:mr-6 cursor-pointer">
+              Skills
+            </p>
           </li>
           <li>
-            <p className="mr-4 hover:underline md:mr-6 ">Projects</p>
+            <p className="mr-4 hover:underline md:mr-6 cursor-pointer">
+              Projects
+            </p>
           </li>
           <li>
-            <p>Contact</p>
+            <p className="mr-4 hover:underline md:mr-6 cursor-pointer">
+              Contact
+            </p>
           </li>
         </ul>
       </div>
