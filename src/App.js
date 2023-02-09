@@ -34,7 +34,7 @@ function App() {
         {/* <Experience /> */}
       </Parallax>
       <Parallax>
-        {/* <Contact /> */}
+        <Contact />
       </Parallax>
       <Footer name={portfolio.name} />
     </Container>
