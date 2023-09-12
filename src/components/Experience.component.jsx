@@ -7,10 +7,10 @@ const Experience = () => {
         EXPERIENCE
       </h1>
       <div className="mt-12 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
-        {experiences.map((experience, idx) => (
+        {experiences.map((experience) => (
           <motion.div
             whileHover={{ scale: 0.95, opacity: 1 }}
-            key={idx}
+            key={experience.id}
             className="group relative"
           >
             <div className="flex justify-center h-[250px] w-[250px] overflow-hidden rounded-md bg-gray-900 ">

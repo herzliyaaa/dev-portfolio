@@ -1,16 +1,11 @@
 import "./index.css";
 import React from "react";
-
 import Container from "./components/Container.component";
 import Intro from "./components/Intro.component";
 import Parallax from "./sub-components/Parallax.sub-component";
 import About from "./components/About.component";
 import Contact from "./components/Contact.component";
 const SkillSet = React.lazy(() => import("./components/SkillSet.component"));
-const Project = React.lazy(() => import("./components/Projects.component"));
-const Experience = React.lazy(() =>
-  import("./components/Experience.component")
-);
 const Footer = React.lazy(() => import("./components/Footer.component"));
 
 const portfolio = {
@@ -25,7 +20,7 @@ function App() {
       </Parallax>
       <About />
       <Parallax>
-        {/* <SkillSet /> */}
+        <SkillSet />
       </Parallax>
       <Parallax>
         {/* <Project /> */}
