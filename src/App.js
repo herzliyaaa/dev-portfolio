@@ -7,7 +7,7 @@ import About from "./components/About.component";
 import Contact from "./components/Contact.component";
 const SkillSet = React.lazy(() => import("./components/SkillSet.component"));
 const Footer = React.lazy(() => import("./components/Footer.component"));
-
+const HomePage = React.lazy(() => import("./components/HomePage.component.jsx"));
 const portfolio = {
   name: "Herzlia Jane R. Barangan",
 };
@@ -16,7 +16,7 @@ function App() {
   return (
     <Container>
       <Parallax>
-        <Intro name={portfolio.name} />
+        <HomePage name={portfolio.name} />
       </Parallax>
       <About />
       <Parallax>
