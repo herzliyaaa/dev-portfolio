@@ -1,35 +1,24 @@
-import css from "../images/skill-logo/css.png";
-import html from "../images/skill-logo/html.png";
-import nodejs from "../images/skill-logo/nodejs1.png";
-import vue from "../images/skill-logo/vue.png";
+import css from '../images/skill-logo/css.png';
+import html from '../images/skill-logo/html.png';
+import nodejs from '../images/skill-logo/nodejs1.png';
 
 export const projects = [
   {
     id: 1,
-    name: "Project 1",
-    href: "#",
+    name: 'Timesheet',
+    href: '#',
     imageSrc: html,
-    imageAlt: "HTML Logo",
   },
   {
     id: 2,
-    name: "Project 2",
-    href: "#",
+    name: 'Shopping Cart',
+    href: '#',
     imageSrc: css,
-    imageAlt: "CSS Logo",
   },
   {
     id: 3,
-    name: "Project 3",
-    href: "#",
+    name: 'Admin',
+    href: '#',
     imageSrc: nodejs,
-    imageAlt: "JS Logo",
   },
-  {
-    id: 4,
-    name: "Project 4",
-    href: "#",
-    imageSrc: vue,
-    imageAlt: "NodeJS Logo",
-  }
 ];
