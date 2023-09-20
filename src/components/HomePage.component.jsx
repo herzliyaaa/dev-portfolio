@@ -1,5 +1,5 @@
 import LogoAnimation from '../sub-components/LogoAnimation.sub-component';
-import TypingAnimation from '../sub-components/TypingEffect.sub-component'
+import Typewriter from '../sub-components/TypingEffect.sub-component'
 import PropTypes from 'prop-types';
 
 const HomePage = name => {
@@ -11,7 +11,7 @@ const HomePage = name => {
         </div>
 
         <div className="flex items-end p-2 m-2">
-        <TypingAnimation/>
+        <Typewriter/>
         </div>
       </div>
 
@@ -21,6 +21,7 @@ const HomePage = name => {
         </div>
       </div>
     </section>
+    
   );
 };
 

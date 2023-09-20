@@ -1,0 +1,27 @@
+<body class="bg-gray-900">
+
+    <div class="min-h-screen flex items-center justify-center">
+        <div class="bg-gray-700 p-10 rounded-lg shadow-lg">
+            <div class="text-center">
+                <h1 class="text-4xl font-semibold text-yellow-500">Minecraft Menu</h1>
+                <p class="text-gray-300 mt-4">Welcome to the world of blocks and adventures.</p>
+            </div>
+            <div class="grid grid-cols-2 gap-4 mt-8">
+               
+                <div class="bg-gray-800 p-4 rounded-lg">
+                    <p class="text-gray-300 text-lg font-semibold">Singleplayer</p>
+                </div>
+                <div class="bg-gray-800 p-4 rounded-lg">
+                    <p class="text-gray-300 text-lg font-semibold">Multiplayer</p>
+                </div>
+                <div class="bg-gray-800 p-4 rounded-lg">
+                    <p class="text-gray-300 text-lg font-semibold">Options</p>
+                </div>
+                <div class="bg-gray-800 p-4 rounded-lg">
+                    <p class="text-gray-300 text-lg font-semibold">Quit Game</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
