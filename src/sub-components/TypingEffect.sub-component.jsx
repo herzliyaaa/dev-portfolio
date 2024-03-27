@@ -2,8 +2,9 @@ import Typewriter from 'typewriter-effect';
 
 const TypeWriter = () => {
   return (
-    <div>
+    <div style={{ color: '#E0CB96' }}> {/* Change 'blue' to your desired color */}
       <Typewriter
+        options={{ loop: true }} // Example: Add options if needed
         onInit={typewriter => {
           typewriter
             .typeString('Web Developer')

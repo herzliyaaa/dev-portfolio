@@ -1,18 +1,21 @@
-import css from '../images/skill-logo/css.png';
-import html from '../images/skill-logo/html.png';
-import nodejs from '../images/skill-logo/nodejs1.png';
-import vue from '../images/skill-logo/vue.png';
-import react from '../images/skill-logo/react.png';
-import pixeljs from '../images/skill-logo/pixel/pixel-js.png';
-// import js from "../images/skill-logo/javascript.png";
-import express from '../images/skill-logo/express.png';
-import tailwind from '../images/skill-logo/tail.svg';
-import docker from '../images/skill-logo/dockerr.png';
-import bootstrap from '../images/skill-logo/bootstrap.png';
-import postgres from '../images/skill-logo/postgres.svg';
-import mysql from '../images/skill-logo/mysql.png';
-import redis from '../images/skill-logo/redis.png';
-import nginx from '../images/skill-logo/nginx.png';
+// import css from '../images/skill-logo/css.png';
+// import html from '../images/skill-logo/html.png';
+// import nodejs from '../images/skill-logo/nodejs1.png';
+// import vue from '../images/skill-logo/vue.png';
+// import react from '../images/skill-logo/react.png';
+// import pixeljs from '../images/skill-logo/pixel/pixel-js.png';
+// // import js from "../images/skill-logo/javascript.png";
+// import express from '../images/skill-logo/express.png';
+// import tailwind from '../images/skill-logo/tail.svg';
+// import docker from '../images/skill-logo/dockerr.png';
+// import bootstrap from '../images/skill-logo/bootstrap.png';
+// import bootstrap from '../images/skill-logo/postgres.svg';
+// import mysql from '../images/skill-logo/mysql.png';
+// import redis from '../images/skill-logo/redis.png';
+// import nginx from '../images/skill-logo/nginx.png';
+
+import { css, html, nodejs, vue, react, pixeljs, express, tailwind, docker, bootstrap, mysql, redis, nginx, postgres} from "../images/skill-logo"
+
 
 export const skills = [
   {
